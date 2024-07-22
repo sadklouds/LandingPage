@@ -3,45 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Landing Page</title>
 </head>
 <body>
 
-    <div class="top-section">
+    <div class="top-container">
         <div class="header">
-            <div class="logo">Logo Header</div>
+            <div class="logo">Header Logo</div>
             <ul class="navbar">
                 <li href="#">header link one</li>
                 <li href="#">header link two</li>
                 <li href="#">header link three</li>
             </ul>
         </div>
+    
+
         <div class="intro-section">
-            <h1>This website is awsome</h1>
-            <p>This website has some subtext that goes here underr the main title. its smaller font and the colour s lower contrast</p>
-            <button class="signup-button">Sign up</button>
-            <img alt="ImagePlace holder" height="310px" width="510px">
+            <div class="main-group">
+                <h1 class="main-title">This website is awsome</h1>
+                <p>This website has some subtext that goes here underr the main title. its smaller font and the colour s lower contrast</p>
+                <button class="signup-button">Sign up</button>
+            </div>
+            <div class="image-box" width="500px" height="250px">
+                <img class="main-image" src="./images/coffe-beans.jpg" alt="ImagePlace holder">
+            </div>
         </div>
     </div>
 
-    <div class="info-section">
-        <h2>Some random information</h2>
-        <div class="card">
-            <img alt="place holder">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde rem harum maiores officia itaque. </p>
+    <div class="info-container">
+        <div class="info-section">
+            <h2>Some random information</h2>
+            <div class="card">
+                <img alt="place holder">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde rem harum maiores officia itaque. </p>
+            </div>
         </div>
+    </div>
+
+    <div class="quote-container">
         <div class="quote">
             <p>This is an inspiring quote, or a testimonial from a customer. Maybe its's just filling up space. or maybe people will actually read it.
                 Who knows? All I know is that is looks nice.
             </p>
             <P class="author"> Thor, God of Thunder</P>
         </div>
-        
     </div>
 
     <footer>
         <p>Copyright @ TheOdinProject2024</p>
-    </footer>
+    </footer> 
     
 </body>
 </html>
